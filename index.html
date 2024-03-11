@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <div class="header">
+    <div class="balance">
+      <p>My Balance</p>
+      <p>$921.48</p>
+    </div>
+    <img src="./images/logo.svg" alt="">
+  </div>
+  <div class="container">
+    <p class="duration">Spending - Last seven days</p>
+    <div class="days-data">
+      <div class="mon day"><span class="bubble" id="monday"></span><div class="m-data"></div><span>mon</span></div>
+      <div class="tues day"><span class="bubble" id="tuesday"></span><div class="t-data"></div><span>tue</span></div>
+      <div class="wednes day"><span class="bubble" id="wednesday"></span><div class="w-data"></div><span>wed</span></div>
+      <div class="thurs day"><span class="bubble" id="thursday"></span><div class="th-data"></div><span>thu</span></div>
+      <div class="fri day"><span class="bubble" id="friday"></span><div class="f-data"></div><span>fri</span></div>
+      <div class="satur day"><span class="bubble" id="saturday"></span><div class="sa-data"></div><span>sat</span></div>
+      <div class="sun day"><span class="bubble" id="sunday"></span><div class="su-data"></div><span>sun</span></div>
+    </div>
+    <hr>
+    <footer>
+      <div class="total">
+        <span>Total this month</span>
+        <span>$478.33</span>
+      </div>
+      <div class="percentage">
+        <span>+2.4%</span>
+        <span>from last month</span>
+      </div>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
