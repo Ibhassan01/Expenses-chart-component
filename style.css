@@ -12,7 +12,12 @@
     --outline: 1px solid red;
 }
 
+@font-face {
+    font-family: 'DM Sans';
+    src: url(https://fonts.google.com/specimen/DM+Sans);
+}
 body{
+    font-family: 'DM Sans';
     padding: 10px;
     background-color: var(--Cream);
     display: flex;
